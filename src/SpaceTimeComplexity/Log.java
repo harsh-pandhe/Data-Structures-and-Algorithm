@@ -3,7 +3,7 @@ package SpaceTimeComplexity;
 public class Log { // O(log n)
     public static void main(String args[]) {
         // Binary Search
-        int[] arr = new int[] { 2, 5, 10, 20, 40, 60 };
+        int[] arr = new int[] { 1, 2, 5, 10, 20, 40};
 
         var ST = System.nanoTime();
         for (int i = 0; i < arr.length; i++) {
